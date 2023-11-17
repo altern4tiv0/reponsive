@@ -1,0 +1,191 @@
+[
+    {
+        "id": "CA-MI",
+        "titulo": "HOSPIVAC-350",
+        "imagen": "/img/CA-MI/hospivac-350.png",
+        "categoria": {
+            "nombre": "CA-MI",
+            "id": "CA-MI"
+        }
+    },
+    {
+        "id": "CA-MI",
+        "titulo": "ASKIR 30",
+        "imagen": "/img/CA-MI/askir-30.png",
+        "categoria": {
+            "nombre": "CA-MI",
+            "id": "CA-MI"
+        }
+    },
+   
+
+
+
+
+
+
+
+
+    {
+        "id": "EDAN",
+        "titulo": "Monitor IM70",
+        "imagen": "/img/EDAN/EDAN-IM70.jpg",
+        "categoria": {
+            "nombre": "EDAN",
+            "id": "EDAN"
+        }
+    },
+    {
+        "id": "EDAN",
+        "titulo": "Monitor Fetal & Materno Express F9",
+        "imagen": "/img/EDAN/Edan-F9.jpg",
+        "categoria": {
+            "nombre": "EDAN",
+            "id": "EDAN"
+        }
+    },
+    {
+        "id": "EDAN",
+        "titulo": "PULSOXIMETRO DE MESA H-100B",
+        "imagen": "/img/EDAN/H-100.jpg",
+        "categoria": {
+            "nombre": "EDAN",
+            "id": "EDAN"
+        }
+    },
+    {
+        "id": "EDAN",
+        "titulo": "Monitor de Paciente V-8",
+        "imagen": "/img/EDAN/Monitor-Elite-V8.jpg",
+        "categoria": {
+            "nombre": "EDAN",
+            "id": "EDAN"
+        }
+    },
+    {
+        "id": "EDAN",
+        "titulo": "Monitor de Paciente V-6",
+        "imagen": "/img/EDAN/Monitor-Elite-V6.jpg",
+        "categoria": {
+            "nombre": "EDAN",
+            "id": "EDAN"
+        }
+    },
+    
+
+
+
+
+
+
+
+    {
+        "id": "BIOLIGHT",
+        "titulo": "Q7",
+        "imagen": "/img/BLT-BIOLIGHT/Q7.jpg",
+        "categoria": {
+            "nombre": "BLT BIOLIGHT",
+            "id": "BIOLIGHT"
+        }
+    },
+    {
+        "id": "BIOLIGHT",
+        "titulo": "Q5",
+        "imagen": "/img/BLT-BIOLIGHT/Q5.jpg",
+        "categoria": {
+            "nombre": "BTL BIOLIGHT",
+            "id": "BIOLIGHT"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "COVIDEN",
+        "titulo": "OXIMETRÍA DE PULSO",
+        "imagen": "/img/COVIDEN/bedside-oximetro.jpg",
+        "categoria": {
+            "nombre": "COVIDEN",
+            "id": "COVIDEN"
+        } 
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "RIESTER",
+        "titulo": "Big Ben",
+        "imagen": "/img/RIESTER/big-ben.png",
+        "categoria": {
+            "nombre": "RIESTER",
+            "id": "RIESTER"
+        }
+    },
+    {
+        "id": "RIESTER",
+        "titulo": "Exacta",
+        "imagen": "/img/RIESTER/exacta.png",
+        "categoria": {
+            "nombre": "RIESTER",
+            "id": "RIESTER"
+        }
+    },
+    {
+        "id": "RIESTER",
+        "titulo": "Ri Champion",
+        "imagen": "/img/RIESTER/ri-champion.png",
+        "categoria": {
+            "nombre": "RIESTER",
+            "id": "RIESTER"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "SECA",
+        "titulo": "354",
+        "imagen": "/img/SECA/354.png",
+        "categoria": {
+            "nombre": "SECA",
+            "id": "SECA"
+        }
+    },
+    {
+        "id": "SECA",
+        "titulo": "777",
+        "imagen": "/img/SECA/777.png",
+        "categoria": {
+            "nombre": "SECA",
+            "id": "SECA"
+        }
+    }
+]

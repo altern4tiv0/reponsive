@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+
+body{
+  font-family: 'Urbanist', sans-serif;
+  overflow-x: hidden;
+  background-image: url(../img/Diseño\ sin\ título.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1800px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.carousel{
+  z-index: -1;
+}
+
+.carousel img{
+  border-radius: 20px;
+  width: 100%;
+
+}
+
+
+/*  tarjetas */
+
+
+.card{
+	width: 100%;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-1%);
+}
+
+
+/*ESPECIALIDADES*/
+
+.especialidades h4{
+  color: #64d6f4;
+  text-align: center;
+}
+
+
+.especialidades p{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+}
+
+
+/* slider */
+
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider h4{
+  padding: 100px 0px;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 14);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+ padding-left: 50px;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
+  }
+}
+
+/*iamgenes*/
+
+article{
+  position: relative;
+
+  transition: all .3s ease;
+}
+
+
+article a{
+  height: 50px;
+  padding: 9px 0px;
+  color: #f8f8f8;
+  background-color:#0055b6;
+  font-family: 'Gabarito', sans-serif;
+  font-size: 22px;
+  border-radius: 50px;
+}
+
+article img:first-child{
+
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+}
+
+article a:last-child{
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(55%);
+  transition: .3s ease; 
+  opacity: 0;
+}
+
+
+article:hover a:last-child{
+  opacity: 1;
+  transform: translateY(-15vh);
+}
+
+
+

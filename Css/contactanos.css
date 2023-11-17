@@ -1,0 +1,236 @@
+/* formulario */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    overflow-x: hidden;
+    background-image: url(../img/Diseño\ sin\ título.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+
+
+.formulario{
+    margin-top: 80px;
+ 
+ 
+    height: 450px;
+}
+
+.container {
+   
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    padding:20px;
+    gap:10px;
+    width: 1000px;
+}
+
+.box-info {
+    color:#000000;
+    font-family: 'Sulphur Point', sans-serif;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+
+.box-info  h1 {
+    color: #000000;
+    font-family: 'Mitr', sans-serif;
+    text-align: left;
+    letter-spacing: 5px;
+  
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.data  p {
+    font-size: 1rem;
+}
+
+.data  p  i {
+    color:#0055b6;
+    margin-right: 10px;
+    font-size:25px;
+}
+
+
+
+.links {
+    display:flex;
+    gap:15px;
+}
+
+.links  a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: #0055b6;
+    border-radius: 50px;
+    text-align: center;
+    transition: .1s;
+}
+
+.links  a  i {
+    color:#ffffff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.links  a i:hover{
+    color:#0055b6;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.input-box {
+    position:relative;
+}
+
+.input-box  input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline:none;
+    border:1.5px solid #c0bebe;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition:.3s;
+    color:#000000;
+    cursor: pointer;
+    
+}
+
+.input-box  input::placeholder,
+.input-box  textarea::placeholder {
+    color:#a3a3a3;
+    
+}
+
+
+.input-box  input:focus::placeholder,
+.input-box  textarea:focus::placeholder {
+    color:transparent;
+}
+
+
+
+.input-box  textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    border:1.5px solid #c0bebe;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    outline: none;
+    transition:.3s;
+    color:#000000;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.input-box  i:hover {
+    transition: all 0.1s;
+    border:1.5px solid #0055b6;
+
+}
+
+.input-box  textarea:hover {
+    transition: all 0.1s;
+    border:1.5px solid #0055b6;
+
+}
+
+.input-box  input:hover {
+    transition: all 0.1s;
+    border:1.5px solid #0055b6;
+
+}
+
+
+.input-box  i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color:#c0bebe;
+    transition: .3s;
+}
+
+.input-box  input:focus ~ i {
+    color:#0055b6;
+}
+
+form  button {
+   
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #0055b6;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+form  button:hover,
+.links  a:hover {
+    color: #0055b6  ;
+    background: #fff;
+
+    border: 2px solid #0055b6;
+}
+
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+ }
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info  h1 {
+        font-size: 1.5rem;
+    }
+
+    .mapa iframe{
+      margin-top: 200px;
+    }
+}
+
+/* mapa */
+
+.mapa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}

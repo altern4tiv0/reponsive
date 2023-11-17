@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit & display=swap');
+
+
+body{
+ background-image: url(../img/Diseño\ sin\ título.jpg);
+ background-repeat: no-repeat;
+ background-position: center center;
+ height: 1800px;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+
+.caja{
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+  background-color: #0055b6;
+  position: fixed;
+}
+
+.breadcrumb{
+  margin: 5px 100px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.breadcrumb .active{
+  color: black;
+}
+
+.img-fluid{
+  margin-left: 400px;
+  margin-top: 100px;
+  border: 2px solid silver;
+  height: 550px;
+  width: 27%;
+}
